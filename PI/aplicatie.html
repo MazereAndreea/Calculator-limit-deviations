@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Aplicație informatică</title>
+    </head>
+    <body>
+        <div class="tot">
+            <h1>Cerința:</h1>
+            <h1 id="cerinta">Program de calcul pentru rezolvarea problemei privind indicarea abaterilor limită generale la o
+                dimensiune liniară dată, cu dimensiune în intervalul [5 mm, 565 mm] în clasa de toleranță introdusă (se
+                va utiliza tabelul 3.8 din Anexe (Tabele tolerante dimensionale si geometrice)</h1>
+        </div>
+        <div class="second">
+            <div>
+                <h3>Dimensiune liniară:</h3>
+                <select id="5-565"></select>
+            </div>
+            <div>
+                <h3>Clasa de toleranță:</h3>
+                <select id="clasa_de_toleranta"></select>
+            </div>
+            <div id="button">
+                <button onclick="trimite()">Calculeaza</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>Abateri limită generale:</h2>
+            </div>
+            <div>
+                <h2 id="raspuns"></h2>
+            </div>
+        </div>
+        <script src="dimensiune_liniara.js"></script>
+        <script src="calculare_cu_tabel.js"></script>
+    </body>
+</html>
