@@ -52,3 +52,12 @@ button {
 body > div:nth-of-type(3){
     display:flex;
 }
+
+#stanga{
+    height:400px;
+    width:500px;
+}
+
+#content{
+    display:flex;
+}
